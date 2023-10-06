@@ -1,0 +1,22 @@
+package Lec6;
+import java.util.*;
+public class Typecasting {
+    public static void main(String[] args) {
+        //		int a = 077;
+//		System.out.println(a);
+        byte b = (byte) (140);
+        b = 2;
+        System.out.println(b);
+        byte b1 = (byte) (300);
+        System.out.println(b1);
+        byte c1 = (byte) (428);
+        System.out.println(c1);
+        int i = 17;
+        i = b;
+        b = -5;
+        i = b;
+        long l=768987997898888l;
+        System.out.println(l);
+
+    }
+}
